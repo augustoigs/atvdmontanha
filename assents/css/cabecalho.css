@@ -1,0 +1,27 @@
+.cabecalho{
+    width: 100%;
+    height: 100px;
+    padding: var(--padding-padrao);
+}
+
+.cabecalho a{
+    padding: .5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: .5rem;
+    width: 200px;
+    height: 50px;
+    border-radius: var(--border-radius);
+    transition: var(--transition-duzentos-ms);
+}
+
+.cabecalho a:hover{
+    background-color: transparent;
+    transform: scale(1.1);
+    transition: var(--transition-duzentos-ms);
+}
+
+.cabecalho a img{
+    width: 30px;
+}

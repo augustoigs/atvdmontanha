@@ -1,0 +1,84 @@
+.container{
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    padding: var(--padding-padrao);
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+}
+
+.container section {
+    padding: var(--padding-padrao);
+    flex-direction: column;
+    display: flex;
+    gap: .5rem;
+    max-width: 550px;
+    border-radius: var(--border-radius);
+}
+
+.container section div{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.option{
+    padding: var(--padding-padrao);
+    display: flex;
+    flex-direction: column;
+    gap: .3rem;
+}
+
+.option label{
+    width: 100%;
+    font-size: 18px;
+    text-align: center;
+    font-size: 21px;
+}
+
+.option select{
+    padding: .4rem;
+    width: 100%;
+    border-radius: var(--border-radius);
+    background-color: rgb(255, 255, 255);
+    
+    font-size: 14px;
+}
+
+.container article{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    max-width: 450px;
+    padding: var(--padding-padrao);
+    border-radius: var(--border-radius);
+    font-family: 'Courier New', Courier, monospace;
+    flex-wrap: wrap;
+    margin-bottom: 8rem;
+    background: #dad8cf;
+    color: rgb(68, 64, 64);
+    font-weight: 600;
+    text-align: center;
+}
+
+.container article span{
+    display: flex;
+    width: 100%;
+    font-size: 1.2rem;
+    word-break: break-word;
+}
+.logo-name{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.logo-name img{
+    width: 200px;
+}
+.logo-name h2{
+    font-size: 32px;
+}

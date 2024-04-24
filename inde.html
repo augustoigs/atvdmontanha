@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tudo sobre JS</title>
+    <link rel="stylesheet" href="./assents/css/base.css">
+    <link rel="stylesheet" href="./assents/css/cabecalho.css">
+    <link rel="stylesheet" href="./assents/css/main.css">
+    <link rel="stylesheet" href="./assents/css/rodape.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="./js/db.js"></script>
+    <script src="./js/main.js"></script>
+</head>
+
+<body>
+    <header class="cabecalho">
+        <a href="#"><img src="./assents/img/icon/125801.ico" alt="Imagem do Site">Augusto Ivan</a>
+    </header>
+
+    <main class="container">
+
+        <section id="augusotoig">
+            <div class="logo-name">
+                <img src="./assents/img/icon/icons8-javascript.svg" alt="#">
+                <h2>Dicionario JavaScript</h2>
+            </div>
+
+            <div class="option">
+                <label for="slc-topicos">Selecione uma opção</label>
+                <select name="Tópicos" title="Selecione" id="slc-topicos" onchange="onSelectChange()">
+                </select>
+            </div>
+
+        </section>
+
+        <article>
+
+            <span id="txt-desc" name="description" title="Descrição"></span>
+        </article>
+    </main>
+
+    <footer>&copy Augusto Ivan, 1999</footer>
+
+</body>
+
+</html>
